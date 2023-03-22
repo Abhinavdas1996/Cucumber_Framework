@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 301.74,
+        "lng": 33.427362
+    },
+    "accuracy": 20,
+    "name": "Aman",
+    "phone_number": "8130950235",
+    "address": "29, side layout, cohen 09",
+    "types": [
+        "Rose",
+        "Apple"
+    ],
+    "website": "https://rahulshettyacademy.com",
+    "language": "Hindi"
+}
+HTTP/1.1 200 OK
+Date: Wed, 22 Mar 2023 18:15:22 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ddfeab9dff4d70f1f83433dd02901fd3",
+    "scope": "APP",
+    "reference": "4112c732975f02f5b5b1605185f7963f4112c732975f02f5b5b1605185f7963f",
+    "id": "4112c732975f02f5b5b1605185f7963f"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ddfeab9dff4d70f1f83433dd02901fd3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ddfeab9dff4d70f1f83433dd02901fd3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 22 Mar 2023 18:15:23 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 239
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "301.74",
+        "longitude": "33.427362"
+    },
+    "accuracy": "20",
+    "name": "Aman",
+    "phone_number": "8130950235",
+    "address": "29, side layout, cohen 09",
+    "types": "Rose,Apple",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "ddfeab9dff4d70f1f83433dd02901fd3"
+}
+HTTP/1.1 200 OK
+Date: Wed, 22 Mar 2023 18:15:24 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
